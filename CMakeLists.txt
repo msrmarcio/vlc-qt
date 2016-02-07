@@ -25,6 +25,7 @@ SET(CMAKE_MODULE_PATH
     ${CMAKE_SOURCE_DIR}/config/platform
 )
 
+INCLUDE(GNUInstallDirs)
 INCLUDE(ParseVersion)
 
 PROJECT(VLC-Qt
